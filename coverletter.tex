@@ -1,0 +1,190 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-red}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+% \definecolor{sectiondivider}{HTML}{5D5D5D}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+%\photo[circle,noedge,left]{./examples/profile}
+\photo[circle,noedge,left]{./computer}
+\name{Gianfranco}{Biondi}
+\position{Staff Software Engineer{\enskip\cdotp\enskip}Engineering Leader}
+\address{218 Market St. Apt 404, Newark, New Jersey 07102}
+
+\mobile{+1 862-231-5009}
+\email{me@gianbiondi.com}
+%\dateofbirth{January 1st, 1970}
+\homepage{gianbiondi.com}
+\github{gxb5443}
+\linkedin{gianfranco-biondi}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \kaggle{kaggle-id}
+% \hackerrank{hackerrank-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra information}
+
+\quote{``Be the change that you want to see in the world."}
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {Jane Street Recruitment Team}
+  {Jane Street \\250 Vesey Street \\New York, NY 10281}
+  %{Google Inc.\\1600 Amphitheatre Parkway\\Mountain View, CA 94043}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Job Application for Software Engineer}
+% How the letter is opened
+\letteropening{To Whom it may Concern,}
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+%\letterenclosure[Attached]{Curriculum Vitae}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal information
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+{\today}
+{Gianfranco Biondi~~~·~~~Cover Letter}
+{}
+
+% Print the title with above letter information
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+
+  \lettersection{About Me}
+  I'm Gian, an experienced software engineer with a strong track record
+  of innovation and leadership. With over a decade of experience in Software
+  Engineering, I have spent the last four years leading teams and managing
+  large-scale projects. My career has been characterized by a relentless pursuit
+  of excellence, innovation, and technical proficiency. I thrive in dynamic,
+  fast-paced environments and have a proven ability to deliver complex projects
+  successfully.
+
+  My technical expertise spans a diverse range of programming languages and
+  frameworks, most recently including C, Python, F{\#}, and cutting-edge technologies like
+  Envoy and WebAssembly (WASM). These experiences have equipped me with the
+  skills needed to design and implement sophisticated software solutions that
+  make a significant impact.
+
+  %My technical expertise spans a diverse range of programming languages and
+  %frameworks, most recently including C, Python, F{\#}, and cutting-edge technologies like
+  %Envoy and WebAssembly (WASM). These experiences have equipped me with the
+  %skills needed to design and implement sophisticated software solutions that
+  %make a significant impact.
+
+  %I'm Gianfranco, an experienced software engineer with a strong track record of
+  %innovation and leadership.  I have 10+ years of experience in Software
+  %Engineering with the last 4 years leading teams and large projects.  I'm
+  %searching for opportunities as a Staff or Principal Software Engineer, or as
+  %an Engineering Manager. Some of the technology that I enjoy working with
+  %includes Golang, Python, Lua, and interesting technologies like Envoy and WASM.
+
+  \lettersection{Why Jane Street?}
+  I am excited about the opportunity to join Jane Street for several compelling
+  reasons. Jane Street's reputation for excellence in algorithmic trading and
+  technology innovation aligns perfectly with my background and aspirations.
+  I am highly motivated to work in a company that places a premium on
+  intellectual curiosity, fosters a collaborative spirit, and actively encourages
+  employees to continuously improve their skills.
+
+  The unique and challenging problems in the world of finance have always
+  intrigued me, and Jane Street's culture of solving complex puzzles with
+  technology resonates with my own passion for problem-solving. I believe that
+  my experience in engineering, leadership, and my technical acumen
+  will allow me to thrive in Jane Street's innovative and dynamic environment.
+
+  \lettersection{Why Me?}
+  As a candidate, I bring a wealth of technical experience,
+  leadership abilities, and a deep commitment to the mission
+  and vision of Jane Street. I have successfully led
+  cross-functional teams, fostering a culture of collaboration,
+  continuous learning, and achievement.
+
+  %I am highly motivated to join the Jane Street team, drive technical
+  %excellence, and collaborate with other brilliant minds to solve challenging
+  %problems in the world of finance. My adaptability in fast-paced environments
+  %and my enthusiasm for innovation make me an ideal fit for Jane Street's
+  %culture and values.
+
+  Thank you for considering my application. I look forward to the possibility of
+  discussing my qualifications further and exploring how I can contribute to
+  Jane Street's ongoing success.
+
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter information
+\makeletterclosing
+
+\end{document}

@@ -1,0 +1,5 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'coverletter.blg'
+[48] biber:340> INFO - === Sun Oct 15, 2023, 23:52:40
+[105] Utils.pm:398> ERROR - Cannot find 'coverletter.bcf'!
+[105] Biber.pm:135> INFO - ERRORS: 1
